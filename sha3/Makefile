@@ -1,6 +1,6 @@
 CPPFLAGS=-I../interfaces
 
-COMPOSANT = sha3Component
+COMPOSANT = sha3
 
 LIBSO = libHash.so
 LIBSO_OBJS = ${COMPOSANT}.o
@@ -21,4 +21,3 @@ ${DESTINATION_DIR}:
 
 ${DESTINATION_LIBSO}: ${LIBSO}
 	cp $< $@
-© 2020 GitHub, Inc.

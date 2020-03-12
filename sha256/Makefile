@@ -1,6 +1,6 @@
 CPPFLAGS=-I../interfaces
 
-COMPOSANT = sha256Component
+COMPOSANT = sha256
 
 LIBSO = libHash.so
 LIBSO_OBJS = ${COMPOSANT}.o
